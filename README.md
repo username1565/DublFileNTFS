@@ -1,5 +1,9 @@
 # DublFileNTFS
 
+This program find duplicate-files on NTFS disk, volume, folder,
+
+and replace this duplicate-files to hardlinks, to make more free space on disk.
+
 Source code - here: https://freebasic.forum2x2.ru/t495-topic
 
 ```
@@ -26,5 +30,5 @@ fsutil hardlink create d:\2.avi d:\1.avi
 Указываем программе диск или папку для обработки.
 Работает в скрытом режиме, а по окончании обработки выводит отчёт на экран.
 Скачать программу DublFileNTFS: https://yadi.sk/d/c2kCmy6C3JSvTt
-и в Releases.
 ```
+... и в [Releases](https://github.com/username1565/DublFileNTFS/releases).
